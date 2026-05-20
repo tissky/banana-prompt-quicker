@@ -4,7 +4,7 @@ class GeminiSite extends BaseSite {
     }
 
     async findTargetButton() {
-        return this.findElement('gemini', 'insertButton', 'button.toolbox-drawer-item-deselect-button:has(mat-icon[fonticon="photo_prints"])');
+        return this.findElement('gemini', 'insertButton', 'toolbox-drawer [data-test-id="deselect-drawer-item-gem-button"]');
     }
 
     getCurrentTheme() {

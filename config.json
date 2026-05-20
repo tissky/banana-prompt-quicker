@@ -6,7 +6,7 @@
         },
         "gemini": {
             "promptInput": "div.ql-editor[contenteditable=\"true\"]",
-            "insertButton": "button.toolbox-drawer-item-deselect-button:has(mat-icon[fonticon=\"photo_prints\"])"
+            "insertButton": "toolbox-drawer [data-test-id=\"deselect-drawer-item-gem-button\"]"
         },
         "gemini_enterprise": {
             "promptInput": ".ProseMirror",
